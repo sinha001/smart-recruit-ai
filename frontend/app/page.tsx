@@ -66,7 +66,7 @@ export default function SmartRecruitAI() {
     formData.append("cv_file", cvFile)
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/process", {
+      const response = await fetch("https://smart-recruit-ai-u2rw.vercel.app/api/process", {
         method: "POST",
         body: formData,
       })
