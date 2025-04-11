@@ -15,7 +15,7 @@ export async function POST(request: NextRequest) {
     backendForm.append("jd_file", jdFile)
     backendForm.append("cv_file", cvFile)
 
-    const res = await fetch("http://127.0.0.1:8000/api/process", {
+    const res = await fetch("https://smart-recruit-ai-u2rw.vercel.app/api/process", {
       method: "POST",
       body: backendForm,
     })
