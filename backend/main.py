@@ -5,7 +5,7 @@ from backend.routes import process
 app = FastAPI(title="Smart Recruit AI")
 
 origins = [
-    "http://localhost:3000",  # your frontend origin
+    "https://smart-recruit-ai.vercel.app",  # your frontend origin
 ]
 
 app.add_middleware(
