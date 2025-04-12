@@ -1,7 +1,7 @@
 from fastapi import APIRouter, UploadFile, File
 from fastapi.responses import JSONResponse
-from backend.utils.pdf_parser import parse_pdf
-from backend.utils.ollama_handler import get_summary_and_score
+from utils.pdf_parser import parse_pdf
+from utils.ollama_handler import get_summary_and_score
 import shutil
 import os
 import uuid
