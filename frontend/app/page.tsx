@@ -195,8 +195,8 @@ export default function SmartRecruitAI() {
           <>
             {result.demoMode && (
               <div className="rounded-md bg-yellow-100 border border-yellow-300 p-4 text-yellow-800 text-sm shadow-sm">
-                <strong>Demo Mode:</strong> You're seeing mock data because the
-                backend isn't running locally. <br />
+                <strong>Demo Mode:</strong> You&apos;re seeing mock data because the
+                backend isn&apos;t running locally. <br />
                 To see live results:
                 <ul className="list-disc list-inside mt-2">
                   <li>Start the Python backend server</li>

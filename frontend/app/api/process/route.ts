@@ -26,7 +26,7 @@ export async function POST(request: NextRequest) {
     const data = await res.json()
     return NextResponse.json(data)
   } catch (error) {
-    console.warn("Backend failed. Returning mock demo data.")
+    console.warn("Backend failed. Returning mock demo data.", error)
     return NextResponse.json({
       demoMode: true,
       jd_summary: {
