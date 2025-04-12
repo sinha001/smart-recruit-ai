@@ -15,6 +15,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+@app.get("/")
+async def working():
+    return "Backend is running.."
 
 @app.on_event("startup")
 def startup():
