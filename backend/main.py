@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.routes import process
+from routes import process
 
 app = FastAPI(title="Smart Recruit AI")
 
